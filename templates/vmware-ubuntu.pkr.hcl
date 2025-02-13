@@ -33,7 +33,7 @@ source "vmware-iso" "ubuntu" {
   network_adapter_type = "e1000e"
   version              = 21
   guest_os_type        = "arm-ubuntu-64"
-  headless             = true
+  headless             = false
   ssh_username         = "ubuntu"
   ssh_password         = "ubuntu"
   ssh_timeout          = "30m"
